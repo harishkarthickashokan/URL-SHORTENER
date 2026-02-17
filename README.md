@@ -24,3 +24,28 @@ This project allows users to convert long URLs into short links and automaticall
 - **API Testing:** Postman / Browser
 
 ---
+```text
+src/main/java
+ └── com.example.url_shortener
+     ├── controller
+     ├── service
+     ├── repository
+     └── model
+```
+
+## ▶️ How to Run the Project
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/url-shortener.git
+
+# Create the database
+CREATE DATABASE url_shortener;
+
+# Update database credentials in:
+# src/main/resources/application.properties
+
+# Run the application
+mvn spring-boot:run
+
+# Test APIs using Postman or a web browser
